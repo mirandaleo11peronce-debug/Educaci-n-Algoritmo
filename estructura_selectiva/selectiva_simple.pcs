@@ -1,0 +1,77 @@
+Proceso selectiva_simple 
+	definir num1,num2 Como Real;
+	Escribir "ingresar el prmer numero;";
+	leer num1;
+	escribir "ingresar el segundo numero;";
+	leer num2;
+	si num1>num2 Entonces
+		escribir "el mayor es:",num1;
+	FinSi
+	si num2>num1 entonces 
+		escribir "el mayor es:",num2;
+	FinSi
+	
+FinProceso
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
