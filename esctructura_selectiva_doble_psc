@@ -1,0 +1,12 @@
+Algoritmo sin_titulo
+	//ingresae la edad y determinar si es 
+	//MAYOR o MENOR de edad 
+	definir edad Como Entero;
+	escribir "ingresar edad ";
+	leer edad;
+	si edad>=18 entonces
+		escribir"eres mayor de edad ",edad;
+	Sino 
+		escribir "eree menor de edad ",edad;
+	FinSi
+FinAlgoritmo
