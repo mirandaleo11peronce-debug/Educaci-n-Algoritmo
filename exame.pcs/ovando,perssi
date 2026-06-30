@@ -1,0 +1,35 @@
+Algoritmo sin_titulo
+	Definir nombre,cliente,precio,producto,cantidad,Hardware,periferico,insumos,pago,total,subtotal Como Real;;
+	escribir "ingrese nombre";
+	leer leo;
+	escribir"ingrese precio unitario del producto";
+	leer precio;
+	escribir "ingrese la cantidad de productos comprados";
+	leer cantidad;
+	cantidad=precio*cantidad;
+	escribir "ingrese precio de Hardware";
+	leer Hardware;
+	Si sub>50.000 Entonces
+		escribir"descuento del 15%";
+	SiNo
+		escribir"descuento del5%";
+	FinSi
+	escribir"ingrese precio de periferico";
+	leer periferico;
+	escribir"descuento del 10%";
+	escribir"ingrese precio de insumos";
+	leer precio;
+    escribir"ingrese la cantidad de insumos";
+	leer insumos;
+	Si lleva > 10  Entonces
+		escribir"descuento de 5%";
+	SiNo
+		escribir"error descuento 0%";
+	FinSi
+	Si efectivo=tarjeta Entonces
+		escribir"descuento extra del 10%";
+	SiNo
+		escribir"recargo del 15%";
+	FinSi
+	
+FinAlgoritmo
